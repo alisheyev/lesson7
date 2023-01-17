@@ -1,0 +1,122 @@
+header {
+  background-color: #1391ceb3;
+}
+
+.flex-container__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+nav .item:nth-child(2) {
+  width: 35%;
+}
+
+nav .item:nth-child(3) {
+  width: 50%;
+}
+
+.navigation-logo {
+  height: 54px;
+}
+
+.navigation-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: "Roboto-bold", sans-serif;
+  color: #25468a;
+}
+
+.navigation-list li {
+  display: inline-block;
+  margin: 0px 32px 0px;
+}
+
+.navigation-list a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Roboto-medium", medium;
+  color: #25468a;
+}
+
+.navigation-list a:hover {
+  color: #ffffff;
+}
+
+.navigation-button {
+  width: 116px;
+  height: 37px;
+  border-radius: 24px;
+  border-style: none;
+  font-family: "Roboto-medium", medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background: #ffffff;
+  color: #14274c;
+  cursor: pointer;
+}
+
+.navigation-button:hover {
+  background-color: #14274c;
+  color: #f5f5f5;
+}
+
+.flex-container__header {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container__header h1 {
+  margin: 100px 0px 4px;
+  font-family: "Roboto-bold", bold;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 108px;
+  color: #25468a;
+}
+
+.flex-container__header h2 {
+  margin: 4px 0px 21px;
+  font-family: "Roboto-regular", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #3b4a6b;
+}
+
+.flex-container__header p {
+  margin: 21px 0px 12px;
+  font-family: "Roboto-regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3b4a6b;
+}
+
+.header-button {
+  margin: 12px 0px 0px;
+  width: 263px;
+  height: 51px;
+  background: #f7ba0e;
+  border-radius: 26px;
+  border-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Regular-medium", sans-serif;
+  color: #3b4a6b;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  color: #ffffff;
+  background-color: #14274c;
+}
+
+.flex-container__header img {
+  margin: 100px 0px 50px;
+  width: 560px;
+  height: 401px;
+}

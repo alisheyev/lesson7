@@ -1,0 +1,169 @@
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+main {
+  background-color: #e5e5e5;
+}
+
+.flex-container__card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  margin: 176px 0px 32px;
+  width: 31%;
+  height: 189px;
+  background: #1391ce;
+  box-shadow: 15px 10px 15px rgba(31, 100, 133, 0.102);
+  border-radius: 8px;
+}
+
+.item-card:hover {
+  background-color: #14274c;
+  width: 35%;
+}
+
+.item-card p {
+  padding: 0px 34px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Roboto-bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box p {
+  margin: 32px 0px 15px;
+  width: 387px;
+  font-family: "Inter-light", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1391ce;
+  text-align: center;
+}
+
+.underscope {
+  margin-bottom: 60px;
+  width: 160px;
+  height: 8px;
+  background: #f7ba0e;
+  text-align: center;
+}
+
+/* ---- */
+.flex-container__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main .items {
+  width: 45%;
+}
+.flex-container__main img {
+  margin: 60px 0px 100px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.items h3 {
+  margin: 60px 0px 8px;
+  font-family: "Inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #25468a;
+}
+
+.items h1 {
+  margin: 8px 0px 16px;
+  font-family: "Inter-bold", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1391ce;
+}
+
+.items p {
+  margin: 16px 0px 12px;
+  font-family: "Inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.items h4 {
+  margin: 12px 0px 18px;
+  font-family: "Inter-bold", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #1391ce;
+}
+
+.items label {
+  font-family: "Inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  color: #4f4f4f;
+}
+
+.form-control {
+  display: block;
+  position: relative;
+  padding-left: 36px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.form-control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.form-control:hover input ~ .custom-checkbox {
+  background-color: #5889b4;
+}
+
+.custom-checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #dddddd;
+}
+
+.custom-checkbox:after {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  content: "";
+  display: none;
+}
+
+.form-control input:checked ~ .custom-checkbox {
+  background-color: #1391ce;
+}
+
+.form-control input:checked ~ .custom-checkbox:after {
+  display: block;
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Inter-bold;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-regular;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-medium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Inter-light;
+  src: url(../fonts/Inter-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* 1440-160*2=1120 */
+  width: 1120px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
